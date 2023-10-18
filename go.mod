@@ -1,4 +1,4 @@
-module metrics-prototype
+module github.com/kgeller/metrics-prototype
 
 go 1.21.1
 
