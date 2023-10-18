@@ -1,4 +1,4 @@
-module metrics-proto
+module metrics-prototype
 
 go 1.21.1
 
