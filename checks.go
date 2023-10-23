@@ -34,7 +34,7 @@ var checks = []Check{
 			{
 				MetricName: "http_response_4xx_total",
 				Operator:   GreaterThanEquals,
-				Threshold:  1,
+				Threshold:  10,
 			},
 		},
 		DocLink: "./guides/003",

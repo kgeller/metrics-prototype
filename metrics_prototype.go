@@ -65,7 +65,8 @@ func main() {
 					// sometimes we have empty metrics files
 					continue
 				}
-				inputMetrics = append(inputMetrics, result[0])
+
+				inputMetrics = append(inputMetrics, result...)
 			}
 		}
 	}
@@ -101,7 +102,9 @@ func main() {
 	}
 
 	if len(metricWarnings) > 0 {
-		fmt.Println(metricWarnings)
+		for _, warning := range metricWarnings {
+			fmt.Println(warning)
+		}
 	} else {
 		fmt.Println("no warnings identified")
 	}
