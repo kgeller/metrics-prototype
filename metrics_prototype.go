@@ -103,7 +103,6 @@ func main() {
 
 	if len(metricWarnings) > 0 {
 		for _, warning := range metricWarnings {
-			fmt.Println(warning)
 			fmt.Printf("Alert triggered for: %s refer to documentation: %s\n", warning.InputName, warning.Check.DocLink)
 		}
 	} else {
