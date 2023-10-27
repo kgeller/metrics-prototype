@@ -16,5 +16,5 @@ Stack version must be > 8.10 or the diagnostic will not include metrics.
 Analyzing components/filestream-monitoring/input_metrics.json
 Analyzing components/log-default/input_metrics.json
 Analyzing components/udp-default/input_metrics.json
-[{udp-panw.panos-091a9b72-50e5-40df-9bad-e0b8ce13b07c {udp ./guides/002 [{received_bytes_total lt 1}]}}]
+Alert triggered for: udp-panw.panos-091a9b72-50e5-40df-9bad-e0b8ce13b07c refer to documentation: guides/002
 ```

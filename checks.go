@@ -15,7 +15,7 @@ var checks = []Check{
 				Threshold:  300000000000, // 5m -> ns
 			},
 		},
-		DocLink: "./guides/001",
+		DocLink: "guides/001",
 	},
 	{
 		Input: "udp",
@@ -26,7 +26,7 @@ var checks = []Check{
 				Threshold:  1,
 			},
 		},
-		DocLink: "./guides/002",
+		DocLink: "guides/002",
 	},
 	{
 		Input: "httpjson",
@@ -37,6 +37,6 @@ var checks = []Check{
 				Threshold:  10,
 			},
 		},
-		DocLink: "./guides/003",
+		DocLink: "guides/003",
 	},
 }
